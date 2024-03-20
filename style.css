@@ -1,1 +1,94 @@
+body{
+    margin: 0px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla';
+    width: 1440px;
+}
 
+.main-content{
+    margin: auto;
+    font-size: 16px;
+    margin-top: 20vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}
+
+.lower-content{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.lower-left-content{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+}
+.lower-right-content{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%, 75%);
+
+}
+.upper-content, .lower-left-content, .lower-right-content{
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.headline{
+    color: hsl(179, 62%, 43%);
+}
+
+#price{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#month{
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: hsla(180, 66%, 83%, 0.75);
+}
+ul{
+    padding: 0px;
+    font-size: 0.9rem;
+}
+ul>li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: hsl(180, 86%, 92%);
+    line-height: 3vh;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: hsl(71, 100%, 89%);
+    border-radius: 5px;  
+    margin-top: 30px;
+}
+button:hover{
+    background-color: hsl(130, 73%, 54%);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+h4{
+    color: hsl(71, 73%, 54%);
+}
+#review{
+    color:hsl(218, 22%, 67%);
+}
